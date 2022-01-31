@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  overflow: auto;
+  background: rgb(255, 255, 255);
+  font-family: "Raleway", sans-serif;
+}
+.header {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  margin: 25px 25px;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav__items {
+  display: flex;
+}
+.nav__items ul {
+  display: flex;
+}
+.nav__menu {
+  z-index: 1;
+}
+.nav__items li {
+  margin-right: 20px;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.nav__items a:hover {
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  transition: all 0.1s ease-in-out;
+}
+
+section {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center center;
+  scroll-snap-align: start;
+}
+
+.hero {
+  background-image: url(./assets/images/mds.jpg);
+  position: relative;
+}
+.section-container {
+  position: absolute;
+
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+.top__div {
+  height: 100vh;
+}
+.bottom__div {
+  background-color: black;
+}
